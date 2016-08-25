@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8806E11E1D6BF12E0075DFF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806E11D1D6BF12E0075DFF9 /* main.m */; };
+		8806E1211D6BF12E0075DFF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806E1201D6BF12E0075DFF9 /* AppDelegate.m */; };
+		8806E1241D6BF12E0075DFF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806E1231D6BF12E0075DFF9 /* ViewController.m */; };
+		8806E1271D6BF12E0075DFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8806E1251D6BF12E0075DFF9 /* Main.storyboard */; };
+		8806E1291D6BF12E0075DFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8806E1281D6BF12E0075DFF9 /* Assets.xcassets */; };
+		8806E12C1D6BF12E0075DFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8806E12A1D6BF12E0075DFF9 /* LaunchScreen.storyboard */; };
+		8806E1361D6C1A3B0075DFF9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806E1341D6C1A3B0075DFF9 /* DetailViewController.m */; };
+		8806E1371D6C1A3B0075DFF9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8806E1351D6C1A3B0075DFF9 /* DetailViewController.xib */; };
+		8806E13A1D6C37470075DFF9 /* UIImage+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806E1391D6C37470075DFF9 /* UIImage+WaterMark.m */; };
+		8806E1961D6C3DF00075DFF9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8806E1951D6C3DF00075DFF9 /* AVFoundation.framework */; };
+		8806E1981D6C3E020075DFF9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8806E1971D6C3E020075DFF9 /* CoreMedia.framework */; };
+		8806E19A1D6C3E0E0075DFF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8806E1991D6C3E0E0075DFF9 /* CoreGraphics.framework */; };
+		8806E19C1D6C3E6C0075DFF9 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8806E19B1D6C3E6C0075DFF9 /* libiconv.tbd */; };
+		8806E2271D6EC7D80075DFF9 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806E2171D6EC7D80075DFF9 /* bitstream.c */; };
+		8806E2281D6EC7D80075DFF9 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806E2191D6EC7D80075DFF9 /* mask.c */; };
+		8806E2291D6EC7D80075DFF9 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806E21C1D6EC7D80075DFF9 /* QRCodeGenerator.m */; };
+		8806E22A1D6EC7D80075DFF9 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806E21D1D6EC7D80075DFF9 /* qrencode.c */; };
+		8806E22B1D6EC7D80075DFF9 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806E21F1D6EC7D80075DFF9 /* qrinput.c */; };
+		8806E22C1D6EC7D80075DFF9 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806E2211D6EC7D80075DFF9 /* qrspec.c */; };
+		8806E22D1D6EC7D80075DFF9 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806E2231D6EC7D80075DFF9 /* rscode.c */; };
+		8806E22E1D6EC7D80075DFF9 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806E2251D6EC7D80075DFF9 /* split.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8806E1191D6BF12E0075DFF9 /* 截屏加水印.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "截屏加水印.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8806E11D1D6BF12E0075DFF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8806E11F1D6BF12E0075DFF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8806E1201D6BF12E0075DFF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8806E1221D6BF12E0075DFF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8806E1231D6BF12E0075DFF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8806E1261D6BF12E0075DFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8806E1281D6BF12E0075DFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8806E12B1D6BF12E0075DFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8806E12D1D6BF12E0075DFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8806E1331D6C1A3B0075DFF9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8806E1341D6C1A3B0075DFF9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8806E1351D6C1A3B0075DFF9 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		8806E1381D6C37460075DFF9 /* UIImage+WaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WaterMark.h"; sourceTree = "<group>"; };
+		8806E1391D6C37470075DFF9 /* UIImage+WaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WaterMark.m"; sourceTree = "<group>"; };
+		8806E1951D6C3DF00075DFF9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8806E1971D6C3E020075DFF9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8806E1991D6C3E0E0075DFF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8806E19B1D6C3E6C0075DFF9 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		8806E2171D6EC7D80075DFF9 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		8806E2181D6EC7D80075DFF9 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		8806E2191D6EC7D80075DFF9 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		8806E21A1D6EC7D80075DFF9 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		8806E21B1D6EC7D80075DFF9 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		8806E21C1D6EC7D80075DFF9 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		8806E21D1D6EC7D80075DFF9 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		8806E21E1D6EC7D80075DFF9 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		8806E21F1D6EC7D80075DFF9 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		8806E2201D6EC7D80075DFF9 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		8806E2211D6EC7D80075DFF9 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		8806E2221D6EC7D80075DFF9 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		8806E2231D6EC7D80075DFF9 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		8806E2241D6EC7D80075DFF9 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		8806E2251D6EC7D80075DFF9 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		8806E2261D6EC7D80075DFF9 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8806E1161D6BF12E0075DFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8806E19C1D6C3E6C0075DFF9 /* libiconv.tbd in Frameworks */,
+				8806E19A1D6C3E0E0075DFF9 /* CoreGraphics.framework in Frameworks */,
+				8806E1981D6C3E020075DFF9 /* CoreMedia.framework in Frameworks */,
+				8806E1961D6C3DF00075DFF9 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8806E1101D6BF12D0075DFF9 = {
+			isa = PBXGroup;
+			children = (
+				8806E19B1D6C3E6C0075DFF9 /* libiconv.tbd */,
+				8806E1991D6C3E0E0075DFF9 /* CoreGraphics.framework */,
+				8806E1971D6C3E020075DFF9 /* CoreMedia.framework */,
+				8806E1951D6C3DF00075DFF9 /* AVFoundation.framework */,
+				8806E11B1D6BF12E0075DFF9 /* 截屏加水印 */,
+				8806E11A1D6BF12E0075DFF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8806E11A1D6BF12E0075DFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8806E1191D6BF12E0075DFF9 /* 截屏加水印.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8806E11B1D6BF12E0075DFF9 /* 截屏加水印 */ = {
+			isa = PBXGroup;
+			children = (
+				8806E2161D6EC7D80075DFF9 /* libqrencode */,
+				8806E1381D6C37460075DFF9 /* UIImage+WaterMark.h */,
+				8806E1391D6C37470075DFF9 /* UIImage+WaterMark.m */,
+				8806E11F1D6BF12E0075DFF9 /* AppDelegate.h */,
+				8806E1201D6BF12E0075DFF9 /* AppDelegate.m */,
+				8806E1221D6BF12E0075DFF9 /* ViewController.h */,
+				8806E1231D6BF12E0075DFF9 /* ViewController.m */,
+				8806E1331D6C1A3B0075DFF9 /* DetailViewController.h */,
+				8806E1341D6C1A3B0075DFF9 /* DetailViewController.m */,
+				8806E1351D6C1A3B0075DFF9 /* DetailViewController.xib */,
+				8806E1251D6BF12E0075DFF9 /* Main.storyboard */,
+				8806E1281D6BF12E0075DFF9 /* Assets.xcassets */,
+				8806E12A1D6BF12E0075DFF9 /* LaunchScreen.storyboard */,
+				8806E12D1D6BF12E0075DFF9 /* Info.plist */,
+				8806E11C1D6BF12E0075DFF9 /* Supporting Files */,
+			);
+			path = "截屏加水印";
+			sourceTree = "<group>";
+		};
+		8806E11C1D6BF12E0075DFF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8806E11D1D6BF12E0075DFF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8806E2161D6EC7D80075DFF9 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				8806E2171D6EC7D80075DFF9 /* bitstream.c */,
+				8806E2181D6EC7D80075DFF9 /* bitstream.h */,
+				8806E2191D6EC7D80075DFF9 /* mask.c */,
+				8806E21A1D6EC7D80075DFF9 /* mask.h */,
+				8806E21B1D6EC7D80075DFF9 /* QRCodeGenerator.h */,
+				8806E21C1D6EC7D80075DFF9 /* QRCodeGenerator.m */,
+				8806E21D1D6EC7D80075DFF9 /* qrencode.c */,
+				8806E21E1D6EC7D80075DFF9 /* qrencode.h */,
+				8806E21F1D6EC7D80075DFF9 /* qrinput.c */,
+				8806E2201D6EC7D80075DFF9 /* qrinput.h */,
+				8806E2211D6EC7D80075DFF9 /* qrspec.c */,
+				8806E2221D6EC7D80075DFF9 /* qrspec.h */,
+				8806E2231D6EC7D80075DFF9 /* rscode.c */,
+				8806E2241D6EC7D80075DFF9 /* rscode.h */,
+				8806E2251D6EC7D80075DFF9 /* split.c */,
+				8806E2261D6EC7D80075DFF9 /* split.h */,
+			);
+			path = libqrencode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8806E1181D6BF12E0075DFF9 /* 截屏加水印 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8806E1301D6BF12E0075DFF9 /* Build configuration list for PBXNativeTarget "截屏加水印" */;
+			buildPhases = (
+				8806E1151D6BF12E0075DFF9 /* Sources */,
+				8806E1161D6BF12E0075DFF9 /* Frameworks */,
+				8806E1171D6BF12E0075DFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "截屏加水印";
+			productName = "截屏加水印";
+			productReference = 8806E1191D6BF12E0075DFF9 /* 截屏加水印.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8806E1111D6BF12E0075DFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mhz;
+				TargetAttributes = {
+					8806E1181D6BF12E0075DFF9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3LJD74D6YZ;
+					};
+				};
+			};
+			buildConfigurationList = 8806E1141D6BF12E0075DFF9 /* Build configuration list for PBXProject "截屏加水印" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8806E1101D6BF12D0075DFF9;
+			productRefGroup = 8806E11A1D6BF12E0075DFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8806E1181D6BF12E0075DFF9 /* 截屏加水印 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8806E1171D6BF12E0075DFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8806E12C1D6BF12E0075DFF9 /* LaunchScreen.storyboard in Resources */,
+				8806E1291D6BF12E0075DFF9 /* Assets.xcassets in Resources */,
+				8806E1271D6BF12E0075DFF9 /* Main.storyboard in Resources */,
+				8806E1371D6C1A3B0075DFF9 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8806E1151D6BF12E0075DFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8806E22A1D6EC7D80075DFF9 /* qrencode.c in Sources */,
+				8806E22D1D6EC7D80075DFF9 /* rscode.c in Sources */,
+				8806E1241D6BF12E0075DFF9 /* ViewController.m in Sources */,
+				8806E2291D6EC7D80075DFF9 /* QRCodeGenerator.m in Sources */,
+				8806E22E1D6EC7D80075DFF9 /* split.c in Sources */,
+				8806E2271D6EC7D80075DFF9 /* bitstream.c in Sources */,
+				8806E22C1D6EC7D80075DFF9 /* qrspec.c in Sources */,
+				8806E1211D6BF12E0075DFF9 /* AppDelegate.m in Sources */,
+				8806E11E1D6BF12E0075DFF9 /* main.m in Sources */,
+				8806E2281D6EC7D80075DFF9 /* mask.c in Sources */,
+				8806E22B1D6EC7D80075DFF9 /* qrinput.c in Sources */,
+				8806E13A1D6C37470075DFF9 /* UIImage+WaterMark.m in Sources */,
+				8806E1361D6C1A3B0075DFF9 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8806E1251D6BF12E0075DFF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8806E1261D6BF12E0075DFF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8806E12A1D6BF12E0075DFF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8806E12B1D6BF12E0075DFF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8806E12E1D6BF12E0075DFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8806E12F1D6BF12E0075DFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8806E1311D6BF12E0075DFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "截屏加水印/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/截屏加水印/ZBarSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhz.webScreenShot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8806E1321D6BF12E0075DFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "截屏加水印/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/截屏加水印/ZBarSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhz.webScreenShot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8806E1141D6BF12E0075DFF9 /* Build configuration list for PBXProject "截屏加水印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8806E12E1D6BF12E0075DFF9 /* Debug */,
+				8806E12F1D6BF12E0075DFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8806E1301D6BF12E0075DFF9 /* Build configuration list for PBXNativeTarget "截屏加水印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8806E1311D6BF12E0075DFF9 /* Debug */,
+				8806E1321D6BF12E0075DFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8806E1111D6BF12E0075DFF9 /* Project object */;
+}

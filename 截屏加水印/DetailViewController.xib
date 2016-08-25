@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController">
+            <connections>
+                <outlet property="button" destination="Z2j-TJ-eeN" id="rzw-LJ-5Yx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="msu-5p-nXb" id="U3N-SG-Kz1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="msu-5p-nXb">
+                    <rect key="frame" x="0.0" y="133" width="600" height="467"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2j-TJ-eeN">
+                    <rect key="frame" x="242" y="84" width="117" height="30"/>
+                    <color key="backgroundColor" red="0.73157392600000004" green="0.90478436470000001" blue="0.689453125" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="BNL-Ro-vYb"/>
+                        <constraint firstAttribute="width" constant="117" id="uAs-xj-hiw"/>
+                    </constraints>
+                    <state key="normal" title="保存截图"/>
+                    <connections>
+                        <action selector="saveAction:" destination="-1" eventType="touchUpInside" id="gCm-dx-oie"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Z2j-TJ-eeN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="Bqj-Ku-7wn"/>
+                <constraint firstItem="msu-5p-nXb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RoM-J9-ho0"/>
+                <constraint firstItem="msu-5p-nXb" firstAttribute="top" secondItem="Z2j-TJ-eeN" secondAttribute="bottom" constant="19" id="VoC-dt-CWY"/>
+                <constraint firstAttribute="trailing" secondItem="msu-5p-nXb" secondAttribute="trailing" id="c5j-kX-rDt"/>
+                <constraint firstAttribute="bottom" secondItem="msu-5p-nXb" secondAttribute="bottom" id="m45-R1-Zck"/>
+                <constraint firstItem="Z2j-TJ-eeN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="r1f-OD-Xd1"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
